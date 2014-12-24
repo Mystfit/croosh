@@ -13,5 +13,5 @@ setup(name='Croosh',
       dependency_links = ['git+https://github.com/mystfit/mongoqueue.git#egg=mongoqueue-0.7.2'],
       install_requires=["pymongo", "mongoqueue>=0.7.2"],
       packages=find_packages(),
-      scripts=['scripts/croosh-server.py', 'scripts/croosh-client.py']
+      scripts=[]
       )
